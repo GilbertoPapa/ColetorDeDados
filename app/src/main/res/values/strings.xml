@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_principal">Ordens de Serviço</string>
+    <string name="numero_funcional">Numero Funcional</string>
+    <string name="login">Login</string>
+    <string name="QRCode">QRCode</string>
+    <string name="Codigo_Barras">Codigo de Barras</string>
+    <string name="Conferente">Conferente :</string>
+    <string name="Data">Data :</string>
+    <string name="Nome_Cliente">Nome do Cliente: </string>
+    <string name="Nome_Obra">Nome da Obra: </string>
+    <string name="Nome_OS">Nome da OS: </string>
+    <string name="OS">OS: </string>
+    <string name="ID_OS">ID da OS: </string>
+    <string name="Placa">Placa: </string>
+    <string name="Tipo_OS">Tipo OS: </string>
+    <string name="title_activity_confere_itens">Conferir Itens</string>
+    <string name="saldo">Saldo</string>
+    <string name="quantity">Quantidade</string>
+    <string name="item">Itens</string>
+    <string name="title_activity_altera_item">Alterar Itens</string>
+    <string name="Encerra_OS">Finalizar OS</string>
+    <string name="substitui_item">Substituir Item: </string>
+    <string name="qtdade_item">Quantidade: </string>
+    <string name="inclui_item">Incluir Item: </string>
+    <string name="qtdade_item_incluso">Quantidade: </string>
+    <string name="alterar">Alterar Item </string>
+    <string name="foto"> Fotos </string>
+    <string name="lista_de_tarefas"> Lista de Tarefas</string>
+    <string name="saida"> Saída </string>
+    <string name="observacao"> Obs. </string>
+    <string name="conf_altera_item">Confirmar alteração </string>
+    <string name="title_activity_conferencia">Finalização e Conferencia</string>
+    <string name="title_activity_transporte_vertical">Check-List - TV</string>
+    <string name="title_activity_adiciona_foto"> Fotos da Avaria </string>
+    <string name="title_activity_saldo_itens">Atualizando Item </string>
+    <string name="title_activity_carregar_saldo">Quantidade Carregada</string>
+    <string name="title_activity_descarga_itens">Descarga de Itens</string>
+    <string name="title_activity_insere_carregado">Carregar </string>
+    <string name="title_activity_incluir_item">Incluir novo item</string>
+    <string name="title_activity_conferencia_descarga">Finalização e Conferencia</string>
+    <string name="item_para_descarregar">Item para descarregar:</string>
+    <string name="bom">Bom</string>
+    <string name="danificado">Danificado</string>
+    <string name="limpeza">Limpeza</string>
+    <string name="inutilizado">Inutilizado</string>
+    <string name="total_descarregado">Total Descarregado:</string>
+    <string name="descarregar_item">Descarregar Item</string>
+    <string name="inserir_novo_item">Inserir novo item</string>
+    <string name="atualizar">Atualizar</string>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <EditText
+        android:id="@+id/edtItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Código"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_layouts"
+        android:text="Bom"
+        android:layout_alignBaseline="@+id/checkBox3"
+        android:layout_alignBottom="@+id/checkBox3"
+        android:layout_alignStart="@+id/edtItemName"
+        android:layout_alignEnd="@+id/checkBox5" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_layouts"
+        android:text="Danificado"
+        android:layout_below="@+id/edtItemName"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpeza"
+        android:padding="@dimen/text_layouts"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edtQtde"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="16dp"
+        android:hint="Quantidade"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/checkBox5"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/checkBox5" />
+
+    <Button
+        android:id="@+id/BtnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:textSize="11dp"
+        android:layout_below="@+id/edtQtde"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/edtWeight"
+        android:layout_alignEnd="@+id/edtQtde" />
+
+    <Button
+        android:id="@+id/BtnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Cancelar "
+        android:textSize="11dp"
+        android:layout_below="@+id/edtWeight"
+        android:layout_alignEnd="@+id/edtWeight"
+        android:layout_alignStart="@+id/edtWeight" />
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Peso"
+        android:inputType="number"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/checkBox6"
+        android:layout_alignEnd="@+id/checkBox6"
+        android:layout_toEndOf="@+id/checkBox5"
+        android:layout_alignStart="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_layouts"
+        android:text="Inutilizado"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/checkBox3" />
+
+</RelativeLayout>
